@@ -1,0 +1,25 @@
+{
+  "name": "saas-dashboard-server",
+  "version": "1.0.0",
+  "description": "Backend API for SaaS Subscription & Expense Analytics Dashboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test:gemini": "node testGemini.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.24.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.3.1",
+    "express": "^4.21.2",
+    "googleapis": "^144.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb-memory-server": "^10.1.4",
+    "mongoose": "^8.9.5",
+    "morgan": "^1.10.0",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.10.0"
+  }
+}
